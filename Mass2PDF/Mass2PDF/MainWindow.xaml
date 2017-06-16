@@ -8,13 +8,12 @@
         Title="Mass2PDF" Height="371" Width="525" Background="#FF3D4A6C">
     <Grid>
         <Rectangle Fill="#FF688FB6" Margin="0,0,0,0" Height="160" VerticalAlignment="Top"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="10,81,0,0" VerticalAlignment="Top" Width="170"/>
-        <Label x:Name="TitleLabel" Content="" Margin="10,10,10,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" Height="66" Background="#33000000"/>
-        <Button Content="Button" Margin="0,81,10,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" HorizontalAlignment="Right" Width="170"/>
-        <Button Content="Button" Margin="174,133,174,0" VerticalAlignment="Top"/>
-        <TextBox Margin="10,175,10,10" TextWrapping="Wrap" Text="TextBox"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="10,108,0,0" VerticalAlignment="Top" Width="170" Background="#33000000"/>
-        <Label Content="Label" Margin="0,106,10,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="170" Background="#33000000"/>
+        <Button Content="Pick Source" HorizontalAlignment="Left" Margin="10,81,0,0" VerticalAlignment="Top" Width="170"/>
+        <Label x:Name="TitleLabel" Content="test&#10; test" Margin="10,10,10,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" Height="66" Background="#33000000"/>
+        <Button Content="Start Conversion" Margin="174,133,174,0" VerticalAlignment="Top"/>
+        <TextBox Margin="10,175,10,10" TextWrapping="Wrap" Text="Log Box..."/>
+        <Label Content="Choose Source" HorizontalAlignment="Left" Margin="10,108,0,0" VerticalAlignment="Top" Width="170" Background="#33000000"/>
+        <Label Content="Choose Destination." Margin="0,106,10,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="170" Background="#33000000"/>
 
     </Grid>
 </Window>
